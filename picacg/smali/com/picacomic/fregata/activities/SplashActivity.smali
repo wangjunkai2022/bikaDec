@@ -317,6 +317,8 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
+    invoke-virtual {p0}, Lcom/picacomic/fregata/activities/SplashActivity;->bZ()V
+
     :cond_0
     return-void
 .end method
