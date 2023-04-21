@@ -1,0 +1,21 @@
+package com.picacomic.fregata.objects;
+/* loaded from: classes.dex */
+public class ChatSystemObject extends ChatBaseObject {
+    String message;
+
+    public ChatSystemObject(String str) {
+        this.message = str;
+    }
+
+    public String getMessage() {
+        return this.message;
+    }
+
+    public void setMessage(String str) {
+        this.message = str;
+    }
+
+    public String toString() {
+        return "ChatSystemObject{message='" + this.message + "'}";
+    }
+}
